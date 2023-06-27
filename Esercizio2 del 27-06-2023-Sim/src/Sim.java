@@ -19,7 +19,7 @@ public class Sim {
 		System.out.println("Ultime chiamate effettuare: ");
 		for (Chiamata chiamata : listaChiamate) {
 			System.out.println("Numero chiamato: " + chiamata.getNumeroChiamato());
-			System.out.println("Durata: " + chiamata.duration + "minuti");
+			System.out.println("Durata: " + chiamata.getDuration + "minuti");
 			System.out.println("----------------------------------------");
 		}
 	}
